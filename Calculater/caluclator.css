@@ -1,37 +1,54 @@
-.box 
-{
-    background-color: rgb(101, 99, 167);
-    height: 350px;
-    width: 300px;
-    text-align: center;
-    margin: auto;
-    border-radius: 1px;
-    border: 2px solid black;
-   
-}
-button
-{
-    text-align: center;
-    padding: 10px;
-    box-shadow: 2px;
-    cursor: pointer;
-    border-radius: 10px;
-    
-    
-}
-.row
-{
-    margin: 8px;
-}
-.row input
-{
-    padding:3px;
-    margin-left: 1px;
-    font-size: 10px;
-    box-sizing: content-box;
-    border-radius: 5px;
-    border: 3px solid black;
-}
-h1{
-    text-align: center;
-}
+body {
+    background: #fff;
+    display: grid;
+    place-items: center; }
+    body h6 {
+      text-align: left;
+      margin: 0;
+      color: #f69907; }
+    body section {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font-family: "Helvetica";
+      max-width: 260px;
+      border-radius: 20px;
+      padding: 20px; }
+      body section .calc-container {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 8px; }
+        body section .calc-container .output-value {
+          font-size: 40px;
+          margin: 30px 0 0;
+          text-align: end;
+          width: 100%;
+          background: transparent;
+          border: 0;
+          color: #fff; }
+        body section .calc-container button {
+          border: 0;
+          background: #313131;
+          color: #fff;
+          width: 60px;
+          height: 60px;
+          transition: .3s ease-in-out;
+          border-radius: 30px;
+          font-size: 25px; }
+          body section .calc-container button.zero {
+            width: 120px; }
+          body section .calc-container button.value {
+            background: #f69907; }
+            body section .calc-container button.value:hover {
+              background: #f69a07c4; }
+          body section .calc-container button.value-top {
+            background: #a0a0a0;
+            color: #313131; }
+            body section .calc-container button.value-top:hover {
+              background: #a0a0a0c4; }
+          body section .calc-container button:hover {
+            background: #313131c4; }
+  
+  /*# sourceMappingURL=style.css.map */
+  
