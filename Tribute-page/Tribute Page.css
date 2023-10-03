@@ -5,6 +5,10 @@
 
 
 }
+img{
+    display: block;
+    margin: auto;
+}
 header
 {
     background-color: rgb(218, 246, 246);
