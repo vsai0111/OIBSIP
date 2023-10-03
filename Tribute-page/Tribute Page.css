@@ -1,0 +1,30 @@
+.box
+{
+    background-color: rgb(177, 182, 185);
+    margin-top: 0%;
+
+
+}
+header
+{
+    background-color: rgb(218, 246, 246);
+    margin: 0 auto;
+    /* margin-top: 20%; */
+    text-align: center;
+}
+header.h1
+{
+font-size: larger;
+}
+header.h2
+{
+    font-size: small;
+}
+body
+{
+    margin-top: 0%;
+}
+#h3
+{
+    text-align: center;
+}
